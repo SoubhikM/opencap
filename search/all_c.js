@@ -5,7 +5,9 @@ var searchData=
   ['normalize',['normalize',['../class_basis_set.html#a72f0e4fef7c1b20b9c1823408aebed6e',1,'BasisSet::normalize()'],['../class_shell.html#ac1f88d2737295f16b0ed8c7d98957cfc',1,'Shell::normalize()']]],
   ['nshells',['Nshells',['../class_basis_set.html#ab294623a53bd2a9fc1f9202d8b59f295',1,'BasisSet']]],
   ['nstates',['nstates',['../class_c_a_p.html#a95df8e12bc6aff7c3d765dec7b5ddedd',1,'CAP']]],
-  ['num_5fatoms',['num_atoms',['../class_a_o_c_a_p.html#af27e4ff3f8eda9764325f42ba31f3c06',1,'AOCAP']]],
+  ['nuc_5fcharges',['nuc_charges',['../class_becke_d_w1.html#a4bf3c6391a730f3cf6c5d0dc6fd60625',1,'BeckeDW1']]],
+  ['nuclear_5fcoordinates',['nuclear_coordinates',['../class_becke_d_w1.html#ae479ca71d92b03f6e206bb46717e8a84',1,'BeckeDW1']]],
+  ['num_5fatoms',['num_atoms',['../class_a_o_c_a_p.html#af27e4ff3f8eda9764325f42ba31f3c06',1,'AOCAP::num_atoms()'],['../class_becke_d_w1.html#a1052cfe14369a36aa9a022939c1a056a',1,'BeckeDW1::num_atoms()']]],
   ['num_5fbf',['num_bf',['../class_shell.html#a92396455ca28f06c6405fb1d41e6329d',1,'Shell']]],
   ['num_5fcarts',['num_carts',['../class_basis_set.html#a45411709272c202532c9621a134b388a',1,'BasisSet::num_carts()'],['../class_shell.html#a072829cf9a75d1c754da427e4d8f6f67',1,'Shell::num_carts()']]],
   ['num_5fprims',['num_prims',['../class_shell.html#afdda6c3827e5af465fae5d53f186af79',1,'Shell']]]

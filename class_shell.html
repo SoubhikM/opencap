@@ -97,18 +97,22 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af53eca4ca8eff44ce2c032f8d7cd5d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ab8e8391807586eb3c52bdc12cb6324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a4ab8e8391807586eb3c52bdc12cb6324">evaluate_on_grid</a> (double *x, double *y, double *z, int num_points, size_t lx, size_t ly, size_t lz, Eigen::Ref&lt; Eigen::VectorXd &gt; v)</td></tr>
 <tr class="separator:a4ab8e8391807586eb3c52bdc12cb6324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fc092dbc9c0c44331084384de28b51c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a5fc092dbc9c0c44331084384de28b51c">evaluateG_on_grid</a> (double *x, double *y, double *z, int num_points, size_t lx, size_t ly, size_t lz, Eigen::Ref&lt; Eigen::VectorXd &gt; vgrad_X, Eigen::Ref&lt; Eigen::VectorXd &gt; vgrad_Y, Eigen::Ref&lt; Eigen::VectorXd &gt; vgrad_Z, size_t Atom_idx)</td></tr>
+<tr class="separator:a5fc092dbc9c0c44331084384de28b51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a201934294b56e6af1d452f6891c59854"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a201934294b56e6af1d452f6891c59854">alpha_min</a> ()</td></tr>
 <tr class="separator:a201934294b56e6af1d452f6891c59854"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8dc157e9d712fe78b6c3eb6681ca32f3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a8dc157e9d712fe78b6c3eb6681ca32f3">alpha_max</a> ()</td></tr>
 <tr class="separator:a8dc157e9d712fe78b6c3eb6681ca32f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3eec51fef27ed3a47309405c24c0b187"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a3eec51fef27ed3a47309405c24c0b187">operator==</a> (const <a class="el" href="class_shell.html">Shell</a> &amp;other)</td></tr>
 <tr class="separator:a3eec51fef27ed3a47309405c24c0b187"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eeb28aec7bd50ad1be3b54cb3e82337"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a9eeb28aec7bd50ad1be3b54cb3e82337">add_primitive</a> (double exp, double coeff)</td></tr>
-<tr class="separator:a9eeb28aec7bd50ad1be3b54cb3e82337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7151ae57420c9f9ea3c16541e93aa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#aaf7151ae57420c9f9ea3c16541e93aa6">add_primitive</a> (double exp, double coeff, size_t atom_id=-1)</td></tr>
+<tr class="separator:aaf7151ae57420c9f9ea3c16541e93aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f88d2737295f16b0ed8c7d98957cfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#ac1f88d2737295f16b0ed8c7d98957cfc">normalize</a> ()</td></tr>
 <tr class="separator:ac1f88d2737295f16b0ed8c7d98957cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92396455ca28f06c6405fb1d41e6329d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a92396455ca28f06c6405fb1d41e6329d">num_bf</a> ()</td></tr>
 <tr class="separator:a92396455ca28f06c6405fb1d41e6329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ddaeee51e3ba98037b3e8ba7f6e4c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a01ddaeee51e3ba98037b3e8ba7f6e4c5">grad_atoms</a> (std::vector&lt; size_t &gt; unique_atoms)</td></tr>
+<tr class="separator:a01ddaeee51e3ba98037b3e8ba7f6e4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -120,6 +124,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afeb2c6f64ad91c8ba72367db3979700d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348bf162b3c6bd877c7a1811f5fb3673"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a348bf162b3c6bd877c7a1811f5fb3673">coeffs</a></td></tr>
 <tr class="separator:a348bf162b3c6bd877c7a1811f5fb3673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e99f4b19ee6e4da8460c180370725a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#ad0e99f4b19ee6e4da8460c180370725a">atom_ids</a></td></tr>
+<tr class="separator:ad0e99f4b19ee6e4da8460c180370725a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb1338cdfbcc776308019abe59a8a3a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#a2eb1338cdfbcc776308019abe59a8a3a">grad_atom</a></td></tr>
+<tr class="separator:a2eb1338cdfbcc776308019abe59a8a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdda6c3827e5af465fae5d53f186af79"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#afdda6c3827e5af465fae5d53f186af79">num_prims</a></td></tr>
 <tr class="separator:afdda6c3827e5af465fae5d53f186af79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4cedc12159cf49e950df3558c949810"><td class="memItemLeft" align="right" valign="top">std::array&lt; double, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_shell.html#ab4cedc12159cf49e950df3558c949810">origin</a></td></tr>
@@ -243,8 +251,8 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9eeb28aec7bd50ad1be3b54cb3e82337"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9eeb28aec7bd50ad1be3b54cb3e82337">&#9670;&nbsp;</a></span>add_primitive()</h2>
+<a id="aaf7151ae57420c9f9ea3c16541e93aa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7151ae57420c9f9ea3c16541e93aa6">&#9670;&nbsp;</a></span>add_primitive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +267,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>coeff</em>&#160;</td>
+          <td class="paramname"><em>coeff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>atom_id</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -425,6 +439,108 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5fc092dbc9c0c44331084384de28b51c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fc092dbc9c0c44331084384de28b51c">&#9670;&nbsp;</a></span>evaluateG_on_grid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Shell::evaluateG_on_grid </td>
+          <td>(</td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>lx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ly</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>lz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>vgrad_X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>vgrad_Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Ref&lt; Eigen::VectorXd &gt;&#160;</td>
+          <td class="paramname"><em>vgrad_Z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>Atom_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Evaluate gradient of basis function with respect to Nuclear poistions (X0, Y0, Z0) (with a given lx ly lz) on grid Needs <code>Atom_idx</code> varaible for atom specific contribution. </p>
+
+</div>
+</div>
+<a id="a01ddaeee51e3ba98037b3e8ba7f6e4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01ddaeee51e3ba98037b3e8ba7f6e4c5">&#9670;&nbsp;</a></span>grad_atoms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Shell::grad_atoms </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; size_t &gt;&#160;</td>
+          <td class="paramname"><em>unique_atoms</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>No of atoms we want to evaluate gradeint for basis function </p>
+
+</div>
+</div>
 <a id="ac1f88d2737295f16b0ed8c7d98957cfc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac1f88d2737295f16b0ed8c7d98957cfc">&#9670;&nbsp;</a></span>normalize()</h2>
 
@@ -518,6 +634,21 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad0e99f4b19ee6e4da8460c180370725a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e99f4b19ee6e4da8460c180370725a">&#9670;&nbsp;</a></span>atom_ids</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; Shell::atom_ids</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="class_atom.html" title="Object for storing atomic data.">Atom</a> ids pertinent to each primitive exps/coeffs </p>
+
+</div>
+</div>
 <a id="a348bf162b3c6bd877c7a1811f5fb3673"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a348bf162b3c6bd877c7a1811f5fb3673">&#9670;&nbsp;</a></span>coeffs</h2>
 
@@ -545,6 +676,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>List of exponents </p>
+
+</div>
+</div>
+<a id="a2eb1338cdfbcc776308019abe59a8a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb1338cdfbcc776308019abe59a8a3a">&#9670;&nbsp;</a></span>grad_atom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; Shell::grad_atom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Number of atoms present </p>
 
 </div>
 </div>

@@ -6,6 +6,8 @@ var searchData=
   ['basisset_2eh',['BasisSet.h',['../_basis_set_8h.html',1,'']]],
   ['basissetparser',['BasisSetParser',['../class_basis_set_parser.html',1,'BasisSetParser'],['../class_basis_set_parser.html#aa7bb26c08c27d14764a94af04eb3b875',1,'BasisSetParser::BasisSetParser()']]],
   ['basissetparser_2eh',['BasisSetParser.h',['../_basis_set_parser_8h.html',1,'']]],
+  ['beckedw1',['BeckeDW1',['../class_becke_d_w1.html',1,'BeckeDW1'],['../class_becke_d_w1.html#a7bc2ec4331113daadbfb6b21200aeaaf',1,'BeckeDW1::BeckeDW1()']]],
+  ['beckedw1_2eh',['BeckeDW1.h',['../_becke_d_w1_8h.html',1,'']]],
   ['beta_5fdms',['beta_dms',['../class_c_a_p.html#a237e99d8c71cdd7de0c6a24dbe45d0b8',1,'CAP']]],
   ['bf_5fid',['bf_id',['../structbf__id.html',1,'bf_id'],['../structbf__id.html#a32cfcae09a5c4a9800663c23092960e9',1,'bf_id::bf_id()']]],
   ['bf_5fids',['bf_ids',['../class_basis_set.html#a30a43aa4154bd315e7f57de70ff2acc8',1,'BasisSet']]],

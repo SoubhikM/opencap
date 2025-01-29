@@ -8,6 +8,7 @@ var searchData=
   ['euler',['euler',['../utils_8h.html#a4496b0a6101e8d6983f2211670cb4ff4',1,'utils.h']]],
   ['evaluate',['evaluate',['../class_shell.html#af53eca4ca8eff44ce2c032f8d7cd5d8b',1,'Shell']]],
   ['evaluate_5fon_5fgrid',['evaluate_on_grid',['../class_shell.html#a4ab8e8391807586eb3c52bdc12cb6324',1,'Shell']]],
+  ['evaluateg_5fon_5fgrid',['evaluateG_on_grid',['../class_shell.html#a5fc092dbc9c0c44331084384de28b51c',1,'Shell']]],
   ['exception',['Exception',['../class_exception.html',1,'Exception'],['../class_exception.html#a53bf3b11d41090b81619796fc3a44b2c',1,'Exception::Exception()']]],
   ['exps',['exps',['../class_shell.html#afeb2c6f64ad91c8ba72367db3979700d',1,'Shell']]]
 ];

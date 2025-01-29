@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['add_5fprimitive',['add_primitive',['../class_shell.html#a9eeb28aec7bd50ad1be3b54cb3e82337',1,'Shell']]],
+  ['add_5fprimitive',['add_primitive',['../class_shell.html#aaf7151ae57420c9f9ea3c16541e93aa6',1,'Shell']]],
   ['add_5fshell',['add_shell',['../class_basis_set.html#a8b2102c0f6bcae4369a9cf0bf3f30911',1,'BasisSet']]],
   ['add_5fstate',['add_state',['../class_eigenvalue_trajectory.html#af3ebd6af1cc6f7145011b754f090c89c',1,'EigenvalueTrajectory']]],
   ['add_5ftdm',['add_tdm',['../class_c_a_p.html#a41743bd6dda9d497efd8f415f4a7a780',1,'CAP']]],
