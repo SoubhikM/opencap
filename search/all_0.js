@@ -20,5 +20,6 @@ var searchData=
   ['atom',['Atom',['../class_atom.html',1,'Atom'],['../class_atom.html#a845ba5207edc191cf0b136713a01f529',1,'Atom::Atom(string symbol, double x, double y, double z)'],['../class_atom.html#a0a179d661abc9d4bd591037fd9bc85b3',1,'Atom::Atom(int atom_num, double x, double y, double z)']]],
   ['atom_2eh',['Atom.h',['../_atom_8h.html',1,'']]],
   ['atom_5fids',['atom_ids',['../class_shell.html#ad0e99f4b19ee6e4da8460c180370725a',1,'Shell']]],
+  ['atom_5fmass_2eh',['atom_mass.h',['../atom__mass_8h.html',1,'']]],
   ['atoms',['atoms',['../class_a_o_c_a_p.html#af18be7fb95b1b3010797daf403c0d438',1,'AOCAP::atoms()'],['../structvoronoi__cap.html#a508c1248eae86347de76f6029175d457',1,'voronoi_cap::atoms()'],['../class_system.html#a3a26e0cfe17a455f3fc256de435a0da1',1,'System::atoms()']]]
 ];

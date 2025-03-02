@@ -3,6 +3,7 @@ var searchData=
   ['gauss_5fintegral',['gauss_integral',['../overlap_8h.html#a3489f0525eae010c4d7f4eb8da60ea6e',1,'overlap.h']]],
   ['get_5fao_5fcap',['get_ao_cap',['../class_c_a_p.html#a413e3748040a375bf599546e0ce5e9a2',1,'CAP']]],
   ['get_5fao_5fcapg',['get_ao_capG',['../class_c_a_p.html#af9ccf7258eb3ef6d23090b5669f32826',1,'CAP']]],
+  ['get_5fatom_5fsymbol',['get_atom_symbol',['../atom__mass_8h.html#aef449691724f7dfc81f3929bfde14dbd',1,'atom_mass.h']]],
   ['get_5fbagel_5fids',['get_bagel_ids',['../gto__ordering_8h.html#a93431e8d48ed41896e56c9d5ebce7980',1,'gto_ordering.h']]],
   ['get_5fbasis_5fids',['get_basis_ids',['../class_system.html#a71433bc9f306bde82c8c6882d1c2297b',1,'System']]],
   ['get_5fdensity',['get_density',['../class_c_a_p.html#a60a35b868c5bdbaa9f09bdbfcab0e8c7',1,'CAP']]],

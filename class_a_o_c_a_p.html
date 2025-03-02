@@ -100,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5a16535c86a11d8fc0676ab5680f73e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a715565cc8703524d512a6ae409fda790"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_c_a_p.html#a715565cc8703524d512a6ae409fda790">computeG_cap_on_grid</a> (std::map&lt; char, Eigen::MatrixXd &gt; &amp;capG_mat, <a class="el" href="class_basis_set.html">BasisSet</a> bs, double *x, double *y, double *z, double *grid_w, int num_points, size_t Atom_idx, size_t centre_numgrid)</td></tr>
 <tr class="separator:a715565cc8703524d512a6ae409fda790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a9ebdd6d746a1d0cf93eaadf409435c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_c_a_p.html#a0a9ebdd6d746a1d0cf93eaadf409435c">compute_cap_der_on_grid</a> (std::map&lt; char, Eigen::MatrixXd &gt; &amp;cap_der_mat, <a class="el" href="class_basis_set.html">BasisSet</a> bs, double *x, double *y, double *z, double *grid_w, int num_points)</td></tr>
-<tr class="separator:a0a9ebdd6d746a1d0cf93eaadf409435c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf33f51c7dea83bda6983e0963b25cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_c_a_p.html#a5bf33f51c7dea83bda6983e0963b25cf">compute_cap_der_on_grid</a> (std::map&lt; char, Eigen::MatrixXd &gt; &amp;cap_der_mat, <a class="el" href="class_basis_set.html">BasisSet</a> bs, double mass_com_rel, double *x, double *y, double *z, double *grid_w, int num_points)</td></tr>
+<tr class="separator:a5bf33f51c7dea83bda6983e0963b25cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a340a5cb9cbec327ff42480930917c2cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_o_c_a_p.html#a340a5cb9cbec327ff42480930917c2cf">compute_cap_on_grid_dwdR</a> (std::map&lt; char, Eigen::MatrixXd &gt; &amp;cap_mat_dwdR_store, <a class="el" href="class_basis_set.html">BasisSet</a> bs, double *x, double *y, double *z, std::map&lt; char, std::map&lt; int, double &gt;&gt; *grid_w, int num_points)</td></tr>
 <tr class="separator:a340a5cb9cbec327ff42480930917c2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -291,8 +291,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0a9ebdd6d746a1d0cf93eaadf409435c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a9ebdd6d746a1d0cf93eaadf409435c">&#9670;&nbsp;</a></span>compute_cap_der_on_grid()</h2>
+<a id="a5bf33f51c7dea83bda6983e0963b25cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf33f51c7dea83bda6983e0963b25cf">&#9670;&nbsp;</a></span>compute_cap_der_on_grid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,6 +308,12 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="class_basis_set.html">BasisSet</a>&#160;</td>
           <td class="paramname"><em>bs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mass_com_rel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -32,7 +32,7 @@ var searchData=
   ['compute_5fao_5fcap',['compute_ao_cap',['../class_c_a_p.html#a2f0fef826afa1e997d557123adb8b405',1,'CAP']]],
   ['compute_5fao_5fcap_5fder_5fmat',['compute_ao_cap_der_mat',['../class_a_o_c_a_p.html#a3592c9aac40f0cfa9877dfd6c84aa8cb',1,'AOCAP']]],
   ['compute_5fao_5fcap_5fmat',['compute_ao_cap_mat',['../class_a_o_c_a_p.html#ab49daa7fe0e0ed566b44745692a2618b',1,'AOCAP']]],
-  ['compute_5fcap_5fder_5fon_5fgrid',['compute_cap_der_on_grid',['../class_a_o_c_a_p.html#a0a9ebdd6d746a1d0cf93eaadf409435c',1,'AOCAP']]],
+  ['compute_5fcap_5fder_5fon_5fgrid',['compute_cap_der_on_grid',['../class_a_o_c_a_p.html#a5bf33f51c7dea83bda6983e0963b25cf',1,'AOCAP']]],
   ['compute_5fcap_5fon_5fgrid',['compute_cap_on_grid',['../class_a_o_c_a_p.html#a5a16535c86a11d8fc0676ab5680f73e6',1,'AOCAP::compute_cap_on_grid()'],['../class_c_a_p.html#a7080e06ecee778f9750b4eebd28d05ac',1,'CAP::compute_cap_on_grid()']]],
   ['compute_5fcap_5fon_5fgrid_5fdwdr',['compute_cap_on_grid_dwdR',['../class_a_o_c_a_p.html#a340a5cb9cbec327ff42480930917c2cf',1,'AOCAP']]],
   ['compute_5fprojected_5fcap',['compute_projected_cap',['../class_c_a_p.html#a7a9beb4988e8602ea4d6cfcd9955e0e2',1,'CAP']]],
